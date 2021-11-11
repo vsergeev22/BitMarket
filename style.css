@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: ;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #6997D3;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    padding: 0px 50px 0px 50px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+}
+
+article {
+    background-color: white;
+    padding: 0px 50px 30px 50px;
+    width: 400px;
+    margin: 30px 15px 30px 15px;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #5D4BD8;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+
+}
+
+footer {
+    background-color: #0E51A7;
+}
+
+footer a {
+    margin-right: 10px;
+}
+
+footer p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    margin-right: 350px;
+    float: right;
+}
